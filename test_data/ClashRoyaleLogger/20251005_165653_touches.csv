@@ -1,0 +1,2 @@
+timestamp,event_type,x,y,pressure,size,package_name
+2025-10-05 16:56:53.284,TOUCH_DOWN,500,800,0.8,0.15,com.supercell.clashroyale

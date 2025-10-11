@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Touch &amp; Screen Logger"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Research Tool for Touch Event Analysis"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to record"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Mode"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCaptureMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Start Recording"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSessionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recorded sessions: 0"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnViewData"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Recorded Data"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnExport"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Export Data"
+        android:textSize="14sp"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnDiagnostics"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Diagnostics"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@android:drawable/ic_menu_info_details" />
+
+</LinearLayout>

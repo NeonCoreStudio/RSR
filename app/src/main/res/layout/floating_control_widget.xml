@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/floating_widget_background">
+
+    <ImageButton
+        android:id="@+id/btnFloatingRecord"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circular_button_background"
+        android:src="@drawable/ic_record"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        android:contentDescription="Toggle Recording"
+        android:elevation="8dp" />
+
+    <!-- Close button positioned at top-right corner -->
+    <ImageButton
+        android:id="@+id/btnFloatingClose"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:drawable/btn_dialog"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:scaleType="centerInside"
+        android:padding="4dp"
+        android:contentDescription="Close Floating Widget"
+        android:elevation="10dp" />
+
+</FrameLayout>

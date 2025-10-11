@@ -1,0 +1,15 @@
+{
+  "session_id": "20251005_155653",
+  "recording_start": "2025-10-05 15:56:53.284",
+  "recording_end": "2025-10-05 15:56:58.284",
+  "video_start": "2025-10-05 15:56:53.484",
+  "total_duration_ms": 5000,
+  "touch_events_count": 50,
+  "video_file": "20251005_155653_video.mp4",
+  "csv_file": "20251005_155653_touches.csv",
+  "device_info": {
+    "model": "Test Device",
+    "android_version": "14",
+    "screen_resolution": "1080x2400"
+  }
+}

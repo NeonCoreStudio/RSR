@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ClashRoyaleLogger</string>
+    <string name="app_name">RSR</string>
     <string name="accessibility_service_description">Logs touch events for data collection.</string>
 </resources>
